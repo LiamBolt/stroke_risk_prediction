@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+.Python/
+.ipynb_checkpoints/ # Jupyter Notebook checkpoints
+.venv/
+env/
+venv/
+
+# Data
+data/raw/ # Usually raw data is too large for Git, track only processed
+data/*.csv
+data/*.parquet
+data/*.feather
+data/*.xlsx
+data/*.db
+
+# Models (saved models can be large, use Git LFS if needed, or track config/metadata)
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.onnx
+trained_models/*.joblib
+trained_models/*.pkl
+# Environment files (if you manage envs outside of repo, like global conda)
+.conda/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
+
+# Streamlit specific
+.streamlit/
