@@ -45,10 +45,10 @@ st.markdown("""
 
 # Constants
 MODEL_PATHS = {
-    'XGBoost': '/home/bolt/Desktop/ml_projects/4_models/trained_models/xgboost_stroke_model.joblib',
-    'SVM': '/home/bolt/Desktop/ml_projects/4_models/trained_models/svm_stroke_model.joblib',
-    'Naive Bayes': '/home/bolt/Desktop/ml_projects/4_models/trained_models/naive_bayes_stroke_model.joblib',
-    'LDA': '/home/bolt/Desktop/ml_projects/4_models/trained_models/lda_stroke_model.joblib'
+    'XGBoost': '/home/bolt/Desktop/ml_projects/stroke_risk_prediction/trained_models/xgboost_stroke_model.joblib',
+    'SVM': '/home/bolt/Desktop/ml_projects/stroke_risk_prediction/trained_models/svm_stroke_model.joblib',
+    'Naive Bayes': '/home/bolt/Desktop/ml_projects/stroke_risk_prediction/trained_models/naive_bayes_stroke_model.joblib',
+    'LDA': '/home/bolt/Desktop/ml_projects/stroke_risk_prediction/trained_models/lda_stroke_model.joblib'
 }
 
 MODEL_DESCRIPTIONS = {
